@@ -15,7 +15,7 @@ btn.addEventListener('click', function (){
             input.value = '';
             
             break;
-        case 'fatima Zahrae':
+        case 'fatima zahrae':
         case 'fatima':
         case 'fati':
             review = Object.assign({}, famille.wife)        //wifeRv = Object.assign({}, famille.wife)
