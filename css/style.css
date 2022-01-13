@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic&display=swap');
+
+:root{
+    --color-primary:'Lobster', cursive;
+    --color-primary-colo:#06d6a0;
+    --font-001:'Noto Sans Arabic', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 65.5%;
+
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+    text-align: center;
+    background-color:#073b4c;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.texto{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+    
+}
+.cart{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    animation: cartpop 1s forwards 0 1 normal ease-in;
+}
+.cart h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    color: #118ab2;
+}
+.cart p{
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    margin: 1rem 0;
+    color: orange;
+}
+.cart img {
+    height: 15rem;
+    border-radius: 5px;
+}
+
+.input{
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    width: 40rem;
+    border: none;
+    border-radius: 8px;
+}
+.input::placeholder{
+    color: rgba(64, 224, 208, 0.514);
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.btn{
+    display: inline;
+    background-color: transparent;
+    border: none;
+    right: 1rem;
+    position: absolute;
+    font-size: 4rem;
+    color: #06d6a0;
+}
+.btn:hover{
+    transform: scale(1.13);
+    color: #073b4c;
+}
+.heading{
+    font-size: 4rem;
+    font-family:var(--color-primary);
+    margin-bottom: 3rem;
+    color: #06d6a0;
+
+}
+.small-h{
+    font-size: 3rem;
+    color: #e5e5e5;
+    margin: 2rem 0;
+    font-family: var(--font-001);
+}
+.box{
+    position: relative;
+}
+.box p {
+    font-size:2rem;
+    color: rgba(255, 255, 255, 0.616);
+    font-family: var(--font-001);
+}
+.box img{
+    height: 20rem;
+}
+.span {
+    font-size: 2.2rem;
+    color:#06d69e69;
+
+
+}
+.not{
+    font-size: 2rem;
+    color: orange;
+}
+@media screen and (max-width:400px) {
+    .container{
+        width: 100% !important;
+        overflow: hidden !important;
+    }
+    .heading{
+        font-size: 2.4rem;
+    }
+    .input{
+        width: 25rem !important;
+    }
+    .content{
+        padding:2rem 0;
+    }
+    
+}
+@keyframes cartpop {
+    0%{
+        opacity: 0;
+    }
+    30%{
+       opacity: .4;
+    }
+    60%{
+        opacity: .6;
+    }
+    100%{
+        opacity: 1;
+    }
+}
