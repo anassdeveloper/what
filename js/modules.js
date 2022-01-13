@@ -24,7 +24,7 @@ export const obj = {
         job:'Sister Of Developer',
         city: 'Habite a Bouznika',
         year: 13,
-        img: "../photos/maha.png",
+        img: "photos/maha.png",
     },
     bro:{
         name:'Mehdi chentouf 👶',
