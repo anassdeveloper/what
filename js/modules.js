@@ -6,7 +6,7 @@ export const obj = {
         job:'Wife Of Developer',
         city: 'Habite a Sale',
         year: 20,
-        img: "../photos/fati.jpg",
+        img: "photos/fati.jpg",
     },
     sister:{
         name:'Hanane Chentouf 👩‍⚖️',
@@ -15,7 +15,7 @@ export const obj = {
         job:'Doctora du Farmacie',
         city: 'Habite a Lion a France',
         year: 32,
-        img:"../photos/hanane.jpg",
+        img:"photos/hanane.jpg",
     },
     mother:{
         name:'Maha chentouf 👩‍🦰',
@@ -33,7 +33,7 @@ export const obj = {
         job:'Player of FootBall',
         city: 'Habite a Bouznika',
         year: 13,
-        img: "../photos/mehdi.jpg",
+        img: "photos/mehdi.jpg",
     },
     ano:{
         name:'Anass chentouf 🤵🏼',
@@ -42,7 +42,7 @@ export const obj = {
         job:'Full-Stack Developer 👨🏼‍💻',
         city: 'Habite a Bouznika',
         year: 26,
-        img: "../photos/anas.png",
+        img: "photos/anas.png",
     },
     sadia:{
         name:'Sadia Esaidi 👵🏼',
@@ -51,6 +51,6 @@ export const obj = {
         job:'Mother Of Developer 👨🏼‍💻',
         city: 'Habite a Bouznika',
         year: 28,
-        img: "../photos/sadia.png",
+        img: "photos/sadia.png",
     },
 }
